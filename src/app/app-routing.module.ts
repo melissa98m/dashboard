@@ -17,7 +17,9 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 
 
 const routes: Routes = [
-  { path: '', component: HomePageComponent },
+  
+  { path: 'home', component: HomePageComponent },
+  { path: '' , component: HomePageComponent},
   { path: 'ProduitsVendus' , component: ProduitsVendusComponent},
   { path: 'TotalVentes' , component: TotalVentesComponent },
   { path: 'NbCommandes' , component: NbCommandesComponent },
