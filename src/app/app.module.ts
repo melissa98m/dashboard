@@ -11,6 +11,12 @@ import { TotalVentesComponent } from './total-ventes/total-ventes.component';
 import { NbCommandesComponent } from './nb-commandes/nb-commandes.component';
 import { NbPaniersComponent } from './nb-paniers/nb-paniers.component';
 import { ValeurPanierMoyenComponent } from './valeur-panier-moyen/valeur-panier-moyen.component';
+import { NewClientsComponent } from './new-clients/new-clients.component';
+import { RecurenseCommandesComponent } from './recurense-commandes/recurense-commandes.component';
+import { PanierAbondonneComponent } from './panier-abondonne/panier-abondonne.component';
+import { NbVisitesComponent } from './nb-visites/nb-visites.component';
+import { ConversionPaniersComponent } from './conversion-paniers/conversion-paniers.component';
+import { ConversionCommandesComponent } from './conversion-commandes/conversion-commandes.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +28,13 @@ import { ValeurPanierMoyenComponent } from './valeur-panier-moyen/valeur-panier-
     TotalVentesComponent,
     NbCommandesComponent,
     NbPaniersComponent,
-    ValeurPanierMoyenComponent
+    ValeurPanierMoyenComponent,
+    NewClientsComponent,
+    RecurenseCommandesComponent,
+    PanierAbondonneComponent,
+    NbVisitesComponent,
+    ConversionPaniersComponent,
+    ConversionCommandesComponent
   ],
   imports: [
     BrowserModule,
