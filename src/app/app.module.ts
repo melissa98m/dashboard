@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HeaderComponent } from './header/header.component';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
-import { ResumeComponent } from './resume/resume.component';
 import { TotalVentesComponent } from './total-ventes/total-ventes.component';
 import { NbCommandesComponent } from './nb-commandes/nb-commandes.component';
 import { NbPaniersComponent } from './nb-paniers/nb-paniers.component';
@@ -25,7 +24,6 @@ import { ProduitsVendusComponent } from './produits-vendus/produits-vendus.compo
     HomePageComponent,
     HeaderComponent,
     FourOhFourComponent,
-    ResumeComponent,
     TotalVentesComponent,
     NbCommandesComponent,
     NbPaniersComponent,

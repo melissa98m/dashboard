@@ -1,47 +1,60 @@
-<nav class="navbar navbar-expand navbar-dark bg-light">
+
+
+    <aside class="col-12 col-md-2 p-0 bg-dark ">
+        <nav class="navbar navbar-expand navbar-dark bg-dark flex-md-column flex-row align-items-start">
+        <a routerLink="">Dashboard</a>
     
-    
-    <ul class="nav flex-column">
-        <a class="navbar-item text-success" routerLink="">DashBoard</a>
-    
+    <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
+        
         <li class="nav-item" routerLinkActive = 'active'>
-            <a class="nav-link" routerLink ="resume">Resume</a>
-        </li>
-        <li class="nav-item" routerLinkActive = 'active'>
-            <a class="nav-link" href="ProduitsVendus">Total des produits vendus</a>
+            <i class="fab fa-product-hunt">
+             <a class="nav-link" routerLink="ProduitsVendus"><img src="./assets/img/produit.png" alt="produit"> Total des produits vendus</a> </i>
         </li>
         <h5>Paniers et commandes</h5>
         <li class="nav-item" routerLinkActive= 'active'>
-            <a class="nav-link" routerLink="TotalVentes">Total des ventes</a>
+            <i class="fas fa-euro-sign"></i>
+            <a class="nav-link" routerLink="TotalVentes"><img src="./assets/img/euro.png" alt="vente"> Total des ventes</a>
         </li>
         <li class="nav-item" routerLinkActive= 'active'>
-            <a class="nav-link" routerLink="NbCommandes">Nombres de commandes</a>
+            <i class="fas fa-backspace">
+            <a class="nav-link" routerLink="NbCommandes"><img src="./assets/img/panier.png" alt="panier"> Nombres de commandes</a>
+            </i>
         </li>
         <li class="nav-item" routerLinkActive= 'active'>
-            <a class="nav-link" routerLink="NbPaniers">Nombres de paniers</a>
+            
+            <a class="nav-link" routerLink="NbPaniers"><img src="./assets/img/commande.png" alt="commande"> Nombres de paniers</a>
+            
         </li>
         <li class="nav-item" routerLinkActive= 'active'>
-            <a class="nav-link" routerLink="PanierMoyen">Valeur d'un panier moyen</a>
+            <i class="fas fa-tag">
+            <a class="nav-link" routerLink="PanierMoyen"><img src="./assets/img/panier.png" alt="panier"> Valeur d'un panier moyen</a>
+            </i>
         </li>
         <h5>Clients</h5>
         <li class="nav-item" routerLinkActive= 'active'>
-            <a class="nav-link" routerLink="NewClients">Nombres de nouveaux clients </a>
+            <i class="fas fa-user-alt"></i>
+            <a class="nav-link" routerLink="NewClients"><img src="./assets/img/visiteur.png" alt="visiteur"> Nombres de nouveaux clients </a>
         </li>
         <li class="nav-item" routerLinkActive= 'active'>
-            <a class="nav-link" routerLink="RecurenseCommandes">Récurrence de commandes clients </a>
+            <i class="fas fa-file-invoice-dollar"></i>
+            <a class="nav-link" routerLink="RecurenseCommandes"><img src="./assets/img/recupanier.png" alt="recurense commande"> Récurrence de commandes clients </a>
         </li>
         <li class="nav-item" routerLinkActive= 'active'>
-            <a class="nav-link" routerLink="PanierAbondonne">Panier abandonés</a>
+            <i class="fas fa-store-alt-slash"></i>
+            <a class="nav-link" routerLink="PanierAbondonne"><img src="./assets/img/abondonn.png" alt="panier abondonné"> Panier abandonés</a>
         </li>
         <h5>Visites</h5>
         <li class="nav-item" routerLinkActive= 'active'>
-            <a class="nav-link" routerLink="NbVisites">Nombres de visites</a>
+            <a class="nav-link" routerLink="NbVisites"><img src="./assets/img/visite.png" alt="visite"> Nombres de visites</a>
         </li>
         <li class="nav-item" routerLinkActive= 'active'>
-            <a class="nav-link" routerLink="ConversionPanier">Conversion en paniers</a>
+            <a class="nav-link" routerLink="ConversionPanier"><img src="./assets/img/addpanier.png" alt=" consersionpanier"> Conversion en paniers</a>
         </li>
         <li class="nav-item" routerLinkActive= 'active'>
-            <a class="nav-link" routerLink="ConversionCommande">Conversion en commandes</a>
+            <a class="nav-link" routerLink="ConversionCommande"><img src="./assets/img/add.png" alt="conversionCommande"> Conversion en commandes</a>
         </li>
     </ul>
-</nav>
+    
+    </nav>
+</aside>
+
