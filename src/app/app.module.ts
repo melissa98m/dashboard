@@ -9,6 +9,8 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 import { ResumeComponent } from './resume/resume.component';
 import { TotalVentesComponent } from './total-ventes/total-ventes.component';
 import { NbCommandesComponent } from './nb-commandes/nb-commandes.component';
+import { NbPaniersComponent } from './nb-paniers/nb-paniers.component';
+import { ValeurPanierMoyenComponent } from './valeur-panier-moyen/valeur-panier-moyen.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { NbCommandesComponent } from './nb-commandes/nb-commandes.component';
     FourOhFourComponent,
     ResumeComponent,
     TotalVentesComponent,
-    NbCommandesComponent
+    NbCommandesComponent,
+    NbPaniersComponent,
+    ValeurPanierMoyenComponent
   ],
   imports: [
     BrowserModule,
