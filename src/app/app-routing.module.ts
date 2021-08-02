@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomePageComponent } from './home-page/home-page.component';
 import { ResumeComponent } from './resume/resume.component';
+import { ProduitsVendusComponent } from './produits-vendus/produits-vendus.component';
 import { TotalVentesComponent } from './total-ventes/total-ventes.component';
 import { NbCommandesComponent } from './nb-commandes/nb-commandes.component';
 import { NbPaniersComponent } from './nb-paniers/nb-paniers.component';
@@ -15,9 +16,11 @@ import { ConversionPaniersComponent } from './conversion-paniers/conversion-pani
 import { ConversionCommandesComponent } from './conversion-commandes/conversion-commandes.component';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 
+
 const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'resume', component: ResumeComponent},
+  { path: 'ProduitsVendus' , component: ProduitsVendusComponent},
   { path: 'TotalVentes' , component: TotalVentesComponent },
   { path: 'NbCommandes' , component: NbCommandesComponent },
   { path: 'NbPaniers' , component: NbPaniersComponent },

@@ -17,6 +17,7 @@ import { PanierAbondonneComponent } from './panier-abondonne/panier-abondonne.co
 import { NbVisitesComponent } from './nb-visites/nb-visites.component';
 import { ConversionPaniersComponent } from './conversion-paniers/conversion-paniers.component';
 import { ConversionCommandesComponent } from './conversion-commandes/conversion-commandes.component';
+import { ProduitsVendusComponent } from './produits-vendus/produits-vendus.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ConversionCommandesComponent } from './conversion-commandes/conversion-
     PanierAbondonneComponent,
     NbVisitesComponent,
     ConversionPaniersComponent,
-    ConversionCommandesComponent
+    ConversionCommandesComponent,
+    ProduitsVendusComponent
   ],
   imports: [
     BrowserModule,
