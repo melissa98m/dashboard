@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 import { ResumeComponent } from './resume/resume.component';
 import { TotalVentesComponent } from './total-ventes/total-ventes.component';
+import { NbCommandesComponent } from './nb-commandes/nb-commandes.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TotalVentesComponent } from './total-ventes/total-ventes.component';
     HeaderComponent,
     FourOhFourComponent,
     ResumeComponent,
-    TotalVentesComponent
+    TotalVentesComponent,
+    NbCommandesComponent
   ],
   imports: [
     BrowserModule,
