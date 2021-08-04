@@ -19,6 +19,8 @@ import { ConversionPaniersComponent } from './conversion-paniers/conversion-pani
 import { ConversionCommandesComponent } from './conversion-commandes/conversion-commandes.component';
 import { ProduitsVendusComponent } from './produits-vendus/produits-vendus.component';
 
+import { CardItemComponent } from './home-page/card-item/card-item.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +37,8 @@ import { ProduitsVendusComponent } from './produits-vendus/produits-vendus.compo
     NbVisitesComponent,
     ConversionPaniersComponent,
     ConversionCommandesComponent,
-    ProduitsVendusComponent
+    ProduitsVendusComponent,
+    CardItemComponent
   ],
   imports: [
     BrowserModule,

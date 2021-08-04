@@ -4,49 +4,9 @@
     
     <hr> 
     <h4>Paniers et commandes</h4>
-    <div class="card-group">
-        
-        <div class="card">
-            <img class="card-img-top" src="assets/img/produitvendu.png" alt="prduit vendu">
-             <div class="card-body">
-            <h5 class="card-title">Total produits vendus</h5>
-            <p class="card-text">Le total des produits vendus ce mois ci est 1000 produits</p>
-            <a ro routerLink="ProduitsVendus" class="btn btn-outline-primary">Plus de détails</a>
-            </div>
-        </div>
-        <div class="card" >
-            <img class="card-img-top" src="..." alt="total vente chart">
-             <div class="card-body">
-            <h5 class="card-title">Total des ventes</h5>
-            <p class="card-text">Le total des ventes ce mois ci est 1000 euros</p>
-            <a rrouterLink="TotalVentes" class="btn btn-outline-primary">Plus de détails</a>
-              </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="assets/img/Nbrcommande.png" alt="nombres commande">
-             <div class="card-body">
-            <h5 class="card-title">Nombres de commandes</h5>
-            <p class="card-text">Le nombre de commandes ce mois ci est 1000 Commandes </p>
-            <a routerLink="NbCommandes" class="btn btn-outline-primary">Plus de détails</a>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="..." alt="nombre panier chart">
-             <div class="card-body">
-            <h5 class="card-title">Nombres de paniers</h5>
-            <p class="card-text">Le nombre de panier ce mois ci est 1500 paniers</p>
-            <a routerLink="NbPaniers" class="btn btn-outline-primary">Plus de détails</a>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="..." alt="Valeur panier chart">
-             <div class="card-body">
-            <h5 class="card-title">Valeur d'un paniers moyen</h5>
-            <p class="card-text">150 €</p>
-            <a routerLink="PanierMoyen" class="btn btn-outline-primary">Plus de détails</a>
-            </div>
-        </div>
-    </div>
+    <app-card-item [cards]="cards"></app-card-item>
+    <app-card-item></app-card-item>
+    <app-card-item></app-card-item>
     <hr>
     <h4>Clients</h4>
     <div class="card-group">

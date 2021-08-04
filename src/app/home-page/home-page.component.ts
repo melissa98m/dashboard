@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
+  cards:any = {
+    title: '',
+    description: '',
+  }
   constructor() { }
 
   ngOnInit(): void {
