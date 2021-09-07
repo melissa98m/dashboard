@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -18,6 +19,8 @@ import { NbVisitesComponent } from './nb-visites/nb-visites.component';
 import { ConversionPaniersComponent } from './conversion-paniers/conversion-paniers.component';
 import { ConversionCommandesComponent } from './conversion-commandes/conversion-commandes.component';
 import { ProduitsVendusComponent } from './produits-vendus/produits-vendus.component';
+import { RequetesComponent } from './requetes/requetes.component';
+import { DataFromApiComponent } from './data-from-api/data-from-api.component';
 
 @NgModule({
   declarations: [
@@ -35,11 +38,15 @@ import { ProduitsVendusComponent } from './produits-vendus/produits-vendus.compo
     NbVisitesComponent,
     ConversionPaniersComponent,
     ConversionCommandesComponent,
-    ProduitsVendusComponent
+    ProduitsVendusComponent,
+    RequetesComponent,
+    DataFromApiComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
     
   ],
   providers: [],
